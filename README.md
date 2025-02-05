@@ -51,7 +51,7 @@ This project builds a chatbot that combines **retrieval-augmented generation (RA
 2. To run the chatbot via Streamlit, use the following command:
 
     ```bash
-    streamlit run chatbot_ui.py
+    streamlit run app.py
     ```
 
 3. The chatbot UI will load, and you can enter a question in the input field. After submitting, the chatbot will process the query and display the answer.
@@ -59,7 +59,7 @@ This project builds a chatbot that combines **retrieval-augmented generation (RA
 ## Structure
 
 - **`chatbot.py`**: Main script for the chatbot's logic and state workflow.
-- **`chatbot_ui.py`**: Streamlit frontend for the chatbot with custom UI.
+- **`app.py`**: Streamlit frontend for the chatbot with custom UI.
 - **`requirements.txt`**: Contains all the necessary Python packages.
 - **`config.py`**: Configuration file containing necessary parameters for API keys, vector stores, and more.
 
